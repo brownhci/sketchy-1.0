@@ -1,0 +1,28 @@
+# Download the data from here:
+https://drive.google.com/file/d/19I_0lhjervDX9GBLLa8K_JLfQZts0uso/view?usp=sharing
+
+MongoDb Set-Up:
+# install mongodb
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+
+# install dependencies (make sure homebrew installed)
+brew tap mongodb/brew
+brew install mongodb-community@4.2
+
+# run
+brew services start mongodb-community@4.2
+mongod --config /usr/local/etc/mongod.conf
+
+
+Get Data from Live Server
+# to get data run the command below within this directory:
+get_data
+
+
+*** Make sure to run the command below before starting the db
+mongorestore --db sketchy ./sketchy
+
+
+Browser Data
+# install "azure cosmos db" extension
+https://hackernoon.com/turning-vs-code-into-a-killer-mongodb-admin-tool-2514f1596a6c
