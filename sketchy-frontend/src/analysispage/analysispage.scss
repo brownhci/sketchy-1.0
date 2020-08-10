@@ -1,0 +1,96 @@
+#analysisPage {
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 300px;
+
+  .page-content {
+    display: inline-block;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+
+    .page-header {
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+
+    #roomList {
+      border-radius: 0;
+      ul {
+        width: 800px;
+        //color: rgb(226, 82, 80)
+        //color: rgb(81, 105, 224)
+      }
+
+      .header {
+        font-size: 12px;
+      }
+
+      li {
+        padding: 12px !important;
+      }
+
+      .room {
+        font-size: 12px !important;
+      }
+
+      .room.selected {
+        background: #bbbec3 !important;
+      }
+    }
+
+    .button-row {
+      text-align: right;
+      margin-bottom: 100px;
+    }
+
+    .graph-container {
+      text-align: center;
+      width: 600px;
+      margin-bottom: 80px;
+    }
+
+    .stats-container {
+      max-width: 400px;
+      display: inline-block;
+
+      .pvalue {
+        font-size: 11px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #333;
+        text-align: left;
+      }
+    }
+  }
+
+  .csi-table-row {
+    font-size: 12px;
+    margin-bottom: 12px;
+
+    .table-label {
+      font-weight: bold;
+      text-align: right;
+    }
+
+    .item {
+      min-width: 120px;
+      text-align: left;
+      display: inline-block;
+      padding: 2px 8px;
+    }
+  }
+
+  .graph-title {
+    padding: 12px;
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+  }
+
+  span.sum {
+    margin-left: 8px;
+  }
+}

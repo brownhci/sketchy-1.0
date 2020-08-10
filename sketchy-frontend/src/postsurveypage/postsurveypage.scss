@@ -1,0 +1,44 @@
+.comparison {
+  margin-bottom: 18px !important;
+
+  @media screen and (max-width: 500px) {
+    .buttons {
+      width: 100%;
+    }
+  }
+
+  .button-container {
+    width: 200px !important;
+    display: flex;
+
+    @media screen and (max-width: 500px) {
+      flex-grow: 1;
+    }
+
+    .button {
+      margin: 0 !important;
+
+      @media screen and (max-width: 380px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .description, .prompt {
+    display: none;
+  }
+}
+
+.our-questions {
+  .prompt {
+    margin-bottom: 0 !important;
+    font-size: 14px;
+  }
+  .description {
+    margin-bottom: 16px !important;
+  }
+}
+
+.csi-prompt {
+  margin-bottom: 18px !important;
+}

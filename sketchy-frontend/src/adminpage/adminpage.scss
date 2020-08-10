@@ -1,0 +1,78 @@
+#adminPage {
+  text-align: center;
+  padding: 10px;
+  color: #333;
+  background: #FAFAFA;
+  min-height: 100%;
+
+  .button-row {
+    max-width: 900px;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    padding: 30px;
+
+    .button {
+      min-width: 140px;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .select-container {
+      display: inline-block;
+      padding: 12px;
+
+      .transition-text {
+        display: inline-block;
+        font-size: 12px;
+        padding-right: 8px;
+      }
+    }
+  }
+
+  .content-container {
+    display: inline-block;
+    width: 100%;
+    max-width: 1400px;
+    text-align: left;
+
+    .sketches {
+      display: flex;
+      width: 100%;
+      max-width: 100%;
+      flex-wrap: wrap;
+
+      .sketch {
+        background: white;
+        width: 240px;
+        height: 240px;
+        border-radius: 3px;
+        border: 1px solid #333;
+        margin: 20px;
+        color: #333;
+        transition: background 0.15s;
+
+        &:hover {
+          cursor: pointer;
+          background: rgba(black, 0.05)
+        }
+
+        .info {
+          position: absolute;
+          font-size: 12px;
+          padding: 4px 4px 4px 6px;
+        }
+
+        .svg {
+          height: 100%;
+          width: 100%;
+
+          svg {
+            height: 100%
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+#surveyPage {
+  background: #48617d;
+  background: white;
+  min-height: 100%;
+  color: white;
+  color: #111;
+  padding: 80px 50px 140px;
+  overflow-x: hidden;
+
+  @media screen and (max-width: 600px) {
+    padding: 0;
+  }
+
+  .welcome {
+    .header {
+      text-align: left;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 13px;
+    }
+
+    .desc {
+      font-size: 24px;
+    }
+    margin-bottom: 80px;
+  }
+
+  .content-container {
+    display: inline-block;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    text-align: left;
+
+    @media screen and (max-width: 350px) {
+      padding: 14px;
+    }
+  }
+}
+
+.pre-survey-page {
+  .question-container {
+    .prompt {
+      font-size: 14px;
+    }
+    .description {
+      display: none;
+    }
+  }
+}

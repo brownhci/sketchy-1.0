@@ -1,0 +1,13 @@
+#stars {
+  padding: 24px;
+}
+
+#stars i {
+  font-size: 40px;
+  color: #444;
+  padding: 0 4px;
+}
+
+#stars i:hover {
+  cursor: pointer;
+}
